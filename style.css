@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+main{
+	position: relative;
+	top:10px
+}
+
+header{
+	color: green;
+	height: 100px;
+	text-align: center;
+	box-shadow: 1px 1px 5px green;
+}
+nav{
+	height: 400px;
+	width: 50%;
+
+
+}
+article{
+
+	width: 50%;
+	height: 400px;
+	position: relative;
+	bottom: 400px;
+	left: 50%
+}
+footer{
+	position: relative;
+	bottom: 0;
+	
+}
+fieldset{
+	border-radius: 2px;
+	border-color: #42c103;
+
+	font-size: 20px;
+	box-shadow: 10px 3px 5px grey;
+	
+}
+legend{
+	font-style: bolder;
+	color: black;
+	font-size: 25px
+}
